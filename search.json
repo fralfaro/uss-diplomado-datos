@@ -1,0 +1,608 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "📊 Estadística y Visualización de Datos con R",
+    "section": "",
+    "text": "🏠 Inicio",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#objetivo-del-módulo",
+    "href": "index.html#objetivo-del-módulo",
+    "title": "📊 Estadística y Visualización de Datos con R",
+    "section": "🎯 Objetivo del Módulo",
+    "text": "🎯 Objetivo del Módulo\nEl propósito de este módulo es desarrollar competencias para la exploración, el análisis y la interpretación de datos mediante técnicas estadísticas descriptivas e inferenciales, complementadas con herramientas modernas de visualización en R. Asimismo, se busca que el estudiante adquiera la capacidad de comunicar hallazgos de manera efectiva a través de reportes reproducibles, dashboards interactivos y presentaciones narrativas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#herramientas-y-librerías",
+    "href": "index.html#herramientas-y-librerías",
+    "title": "📊 Estadística y Visualización de Datos con R",
+    "section": "🔧 Herramientas y librerías",
+    "text": "🔧 Herramientas y librerías\n\nLenguaje y entorno: R, RStudio\nLibrerías principales: ggplot2, dplyr, tidyr, skimr, GGally, corrplot, reshape2, shiny, quarto, knitr, patchwork, readr\nConjuntos de datos sugeridos: palmerpenguins, gapminder, datos abiertos de datos.gob.cl, y recursos de Kaggle",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#planificación-semanal",
+    "href": "index.html#planificación-semanal",
+    "title": "📊 Estadística y Visualización de Datos con R",
+    "section": "📅 Planificación semanal",
+    "text": "📅 Planificación semanal\n\n\n\n\n\n\n\n\n\nSemana\nTema principal\nObjetivo\nActividad central\n\n\n\n\n📘 1\nVisualización exploratoria y estadística descriptiva\nExplorar y describir datos mediante visualizaciones y medidas estadísticas básicas\nAnálisis exploratorio con ggplot2, skimr, GGally\n\n\n📗 2\nInferencia estadística en R\nIntroducir nociones de intervalos de confianza y pruebas de hipótesis para validar hallazgos\nAplicación de tests de normalidad, medias, proporciones y correlación\n\n\n📙 3\nReproducibilidad y dashboards interactivos\nDocumentar y compartir análisis mediante reportes reproducibles y aplicaciones web\nInforme dinámico en Quarto y mini app en Shiny\n\n\n📕 4\nData storytelling y presentación de proyectos\nComunicar resultados de manera clara y persuasiva mediante visualización y narrativa\nProyecto final: reporte en Quarto o dashboard en Shiny",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#referencias-recomendadas",
+    "href": "index.html#referencias-recomendadas",
+    "title": "📊 Estadística y Visualización de Datos con R",
+    "section": "📚 Referencias recomendadas",
+    "text": "📚 Referencias recomendadas\n\nWickham, H., & Grolemund, G. (2016). R for Data Science. O’Reilly. https://r4ds.hadley.nz/\nKnaflic, C. N. (2015). Storytelling with Data: A Data Visualization Guide for Business Professionals. Wiley.\nHealy, K. (2018). Data Visualization: A Practical Introduction. Princeton University Press.\nChang, W. (2021). Mastering Shiny. https://mastering-shiny.org\nDocumentación oficial de Quarto\nRecursos de Shiny",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#resultados-de-aprendizaje-esperados",
+    "href": "index.html#resultados-de-aprendizaje-esperados",
+    "title": "📊 Estadística y Visualización de Datos con R",
+    "section": "✨ Resultados de aprendizaje esperados",
+    "text": "✨ Resultados de aprendizaje esperados\nAl finalizar el módulo, el estudiante será capaz de:\n\nAplicar e interpretar técnicas de estadística descriptiva e inferencial.\nRepresentar datos mediante visualizaciones en ggplot2.\nElaborar reportes reproducibles en Quarto.\nDesarrollar aplicaciones interactivas sencillas con Shiny.\nComunicar resultados de forma clara, visual y narrativa.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/index.html",
+    "href": "semana_01/index.html",
+    "title": "📘 Visualización y Estadística Descriptiva",
+    "section": "",
+    "text": "Introducción\nEn esta primera semana del módulo, nos centraremos en los fundamentos del análisis exploratorio de datos (EDA). Trabajaremos con herramientas como ggplot2, skimr y GGally para generar visualizaciones efectivas, y revisaremos las principales medidas estadísticas descriptivas para interpretar distribuciones y variabilidad en los datos.\n\n\nObjetivos de la semana\n\nComprender la estructura y sintaxis de ggplot2.\nGenerar histogramas, boxplots y gráficos de dispersión.\nAplicar medidas estadísticas descriptivas como media, mediana, desviación estándar y rango intercuartílico.\nIdentificar valores atípicos mediante visualización.\nUsar skimr y GGally para obtener resúmenes automáticos de los datos.\n\n\n\nContenido a revisar\n\nFundamentos de Visualización y Estadística\nIntroducción teórica a los conceptos clave y ejemplos básicos en R.\nLaboratorio de Exploración de Datos\nActividad guiada con el dataset palmerpenguins para aplicar lo aprendido.\nPreguntas Clave para la Reflexión\nCuestionario para profundizar la comprensión y fomentar la interpretación crítica de los resultados.\n\n\n\nActividad de la semana\nRealiza un análisis exploratorio completo del dataset penguins, incluyendo:\n\nGráficos descriptivos con ggplot2\nEstadísticas por grupo (por ejemplo, por especie)\nIdentificación e interpretación de valores atípicos\nRespuestas a al menos 5 preguntas del documento de reflexión\n\nEntrega tu trabajo como un documento .qmd renderizado en HTML o PDF mediante Quarto.\n\n\nRecursos\n\nr4ds – Visualización\nCheatsheet de ggplot2\nDataset: palmerpenguins::penguins",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva"
+    ]
+  },
+  {
+    "objectID": "semana_01/introduccion.html",
+    "href": "semana_01/introduccion.html",
+    "title": "Introducción a la Visualización",
+    "section": "",
+    "text": "Motivación\nAprender sobre visualización es importante por varias razones:\nComunicar información compleja de manera clara y efectiva\nAl presentar datos de una manera visual, es más fácil identificar patrones y tendencias, así como también hacer comparaciones y contrastes. Esto es especialmente importante cuando se trabaja con grandes conjuntos de datos o cuando se trata de presentar información a un público diverso.\nDescubrir información oculta o desconocida\nA menudo, los datos pueden contener patrones o relaciones que no son obvios a simple vista, pero que pueden ser descubiertos mediante la exploración y la visualización. La visualización también puede ayudar a identificar errores y anomalías en los datos, lo que puede ser importante para la toma de decisiones y la planificación.\nMejorar la capacidad de análisis de datos\nAl comprender cómo presentar datos de manera efectiva, se puede desarrollar una mejor comprensión de los datos y las relaciones que existen entre ellos. Esto puede ayudar a tomar decisiones informadas basadas en datos y a identificar tendencias y oportunidades que de otra manera podrían haber pasado desapercibidas.",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a la Visualización</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/introduccion.html#motivación",
+    "href": "semana_01/introduccion.html#motivación",
+    "title": "Introducción a la Visualización",
+    "section": "",
+    "text": "Malos Gráficos\n\n\n\n\nBuenos Gráficos\n\n\n\nPrimeras visualizaciones\nCampaña de Napoleón a Moscú (Charles Minard, 1889)\nGráfico que muestra el número de las fuerzas francesas en su marcha hacia Moscú y durante la retirada, por Charles Minard. También contiene información ambiental como la temperatura por fecha.\n\nMapa del cólera (John Snow, 1855)\nGráfico que muestra los casos de cólera durante la epidemia en Londres de 1854 y Las cruces la ubicación de las bombas de agua.",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a la Visualización</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/introduccion.html#por-qué-utilizar-gráficos",
+    "href": "semana_01/introduccion.html#por-qué-utilizar-gráficos",
+    "title": "Introducción a la Visualización",
+    "section": "¿Por qué utilizar gráficos?",
+    "text": "¿Por qué utilizar gráficos?\n\nEl 70 % de los receptores sensoriales del cuerpo humano está dedicado a la visión.\nCerebro ha sido entrenado evolutivamente para interpretar la información visual de manera masiva.\n“The eye and the visual cortex of the brain form a massively parallel processor that provides the highest bandwidth channel into human cognitive centers” — Colin Ware, Information Visualization, 2004.\n\n\nCuarteto de ANSCOMBE\nEl Cuarteto de Anscombe es un conjunto de cuatro conjuntos de datos que tienen las mismas estadísticas descriptivas (medias, varianzas, correlaciones y regresiones), pero que se ven muy diferentes cuando se visualizan. Fueron presentados por el estadístico Francis Anscombe en 1973 para demostrar la importancia de la visualización en el análisis de datos.\nLos cuatro conjuntos de datos consisten en pares de variables x e y, y cada conjunto representa un tipo diferente de relación entre las variables. A simple vista, los cuatro conjuntos parecen tener distribuciones y relaciones completamente diferentes entre sí, pero cuando se analizan las estadísticas descriptivas, todas son idénticas.\nEstadísticos\n\nGráficos",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a la Visualización</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/introduccion.html#teoría-de-visualización",
+    "href": "semana_01/introduccion.html#teoría-de-visualización",
+    "title": "Introducción a la Visualización",
+    "section": "Teoría de visualización",
+    "text": "Teoría de visualización\nLa teoría de visualización se refiere a la investigación y el estudio de cómo las personas procesan, interpretan y comprenden información visual. La visualización puede involucrar cualquier tipo de información que pueda ser representada visualmente, incluyendo gráficos, diagramas, mapas, fotografías y videos.\nAlgunos de los conceptos y principios importantes en la teoría de visualización incluyen:\n\nPercepción visual: Cómo procesamos y entendemos la información visual a través de nuestros sentidos.\nCognición visual: Cómo procesamos y entendemos la información visual a través de nuestros procesos mentales, como la atención, la memoria y la toma de decisiones.\nDiseño visual: Cómo se pueden crear visualizaciones efectivas y atractivas para comunicar información de manera clara y efectiva.\nInteractividad visual: Cómo las visualizaciones interactivas pueden ayudar a los usuarios a explorar y comprender mejor la información visual.\n\n\nConsejos generales\nNoah Iliinsky es un experto en visualización de datos y ha identificado cuatro pilares fundamentales de la visualización.\nEstos pilares son:\n\nContenido: El contenido se refiere a la información que se está visualizando. Para que la visualización sea efectiva, es importante tener una comprensión clara del contenido y cómo se relaciona con el objetivo de la visualización.\nFunción: La función se refiere al propósito de la visualización. ¿Qué se espera que haga la visualización? ¿Debe mostrar una tendencia, comparar datos o explorar patrones? Es importante tener en cuenta la función de la visualización para asegurarse de que se está diseñando de manera efectiva.\nForma: La forma se refiere a la apariencia visual de la visualización. Esto incluye cosas como el tipo de gráfico o diagrama utilizado, la paleta de colores y la tipografía. La forma debe ser coherente y legible para que la visualización sea fácil de entender.\nAudiencia: La audiencia se refiere a las personas que verán la visualización. La comprensión de la audiencia es esencial para determinar el nivel de detalle y complejidad adecuados para la visualización. La visualización debe ser accesible y comprensible para su audiencia objetivo.\n\n\n🔑 Nota: Se recomienda ver el siguiente video para profundizar estos conceptos\n\n\n\nHonestidad\nEl ojo humano no tiene la misma precisión al estimar distintas atribuciones:\n\nLargo: Bien estimado y sin sesgo, con un factor multiplicativo de 0.9 a 1.1.\nÁrea: Subestimado y con sesgo, con un factor multiplicativo de 0.6 a 0.9.\nVolumen: Muy subestimado y con sesgo, con un factor multiplicativo de 0.5 a 0.8.\n\nResulta inadecuado realizar gráficos de datos utilizando áreas o volúmenes si no queda claro la atribución utilizada.\n\nUna pseudo-excepción la constituyen los pie-chart o gráficos circulares, porque el ojo humano distingue bien ángulos y segmentos de círculo, y porque es posible indicar los porcentajes respectivos.\n\n\n\nPercepción\nNo todos los elementos tienen la misma percepción a nivel del sistema visual. En particular, el color y la forma son elementos preatentivos: un color distinto o una forma distinta se reconocen de manera no conciente.\n\nEl sistema visual humano puede estimar con precisión siguientes atributos visuales:\n\nPosición\nLargo\nPendiente\nÁngulo\nÁrea\nVolumen\nColor\n\n\n\nColormaps\nPuesto que la percepción del color tiene muy baja precisión, resulta inadecuado tratar de representar un valor numérico con colores. * ¿Qué diferencia numérica existe entre el verde y el rojo? * ¿Que asociación preexistente posee el color rojo, el amarillo y el verde? * ¿Con cuánta precisión podemos distinguir valores en una escala de grises?",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a la Visualización</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/introduccion.html#ecosistema-de-visualización-en-r",
+    "href": "semana_01/introduccion.html#ecosistema-de-visualización-en-r",
+    "title": "Introducción a la Visualización",
+    "section": "Ecosistema de Visualización en R",
+    "text": "Ecosistema de Visualización en R\nPara comenzar, CRAN Task View: Graphics ofrece una visión general de las principales herramientas de visualización disponibles en el lenguaje R, clasificadas según tipo de gráfico, interactividad y complejidad. En esta sección, revisaremos las librerías más representativas del ecosistema, sus propósitos y cómo se complementan entre sí.\nR ha sido históricamente uno de los lenguajes preferidos para análisis y comunicación de datos, y esto se refleja en la riqueza de su ecosistema gráfico.\n\nLibrerías base y extendidas\n\nbase R graphics: sistema de gráficos incorporado, permite crear visualizaciones simples rápidamente. Ejemplo: plot(x, y).\nlattice: inspirado en Trellis (S+), permite crear visualizaciones multivariadas con paneles automáticos.\nggplot2: parte del tidyverse, es uno de los sistemas más populares para crear gráficos estáticos y altamente personalizables. Usa una gramática declarativa: ggplot(data, aes(x, y)) + geom_*().\nggridges, ggthemes, patchwork, cowplot, ggtext: librerías que extienden y mejoran el uso de ggplot2.\n\n\n\nVisualizaciones interactivas\nPara necesidades interactivas, el ecosistema R ofrece herramientas integradas con HTML/JavaScript a través de htmlwidgets:\n\nplotly: permite transformar un gráfico ggplot2 en interactivo con ggplotly(), o construir gráficos desde cero. Ideal para dashboards o informes HTML.\nhighcharter: basado en Highcharts.js, orientado a visualizaciones financieras y empresariales.\nleaflet: mapas interactivos fáciles de construir.\necharts4r: conexión directa con la librería ECharts de Baidu.\ndygraphs, timevis, DT: gráficos de series temporales, líneas de tiempo, y tablas interactivas respectivamente.\n\n\n\nConstrucción de dashboards y aplicaciones web\n\nShiny: el equivalente a Dash en Python. Permite construir aplicaciones web completas con control de entrada, salidas reactivas, y visualizaciones vivas.\nflexdashboard: para generar dashboards con Quarto o R Markdown, usando sintaxis minimalista.\nQuarto + Shiny: puedes incrustar interactividad dentro de documentos HTML, sitios web o presentaciones.",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a la Visualización</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html",
+    "href": "semana_01/estadistica.html",
+    "title": "Estadística Descriptiva en R",
+    "section": "",
+    "text": "Cargar datos de ejemplo\nUsaremos el conjunto de datos mtcars, incorporado en R.",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#cargar-datos-de-ejemplo",
+    "href": "semana_01/estadistica.html#cargar-datos-de-ejemplo",
+    "title": "Estadística Descriptiva en R",
+    "section": "",
+    "text": "data(mtcars)\nhead(mtcars)",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#medidas-de-tendencia-central",
+    "href": "semana_01/estadistica.html#medidas-de-tendencia-central",
+    "title": "Estadística Descriptiva en R",
+    "section": "Medidas de Tendencia Central",
+    "text": "Medidas de Tendencia Central\n\nMedia\nLa media o promedio es el valor central obtenido al sumar todos los valores y dividirlos por el número total de observaciones.\nmean(mtcars$mpg)\n\n\nMediana\nLa mediana es el valor que se encuentra en el centro de los datos ordenados. Es resistente a valores extremos.\nmedian(mtcars$mpg)\n\n\nModa\nR no tiene una función directa para calcular la moda. Podemos definir una función personalizada:\nmoda &lt;- function(x) {\n  ux &lt;- unique(x)\n  ux[which.max(tabulate(match(x, ux)))]\n}\n\nmoda(mtcars$cyl)",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#medidas-de-dispersión",
+    "href": "semana_01/estadistica.html#medidas-de-dispersión",
+    "title": "Estadística Descriptiva en R",
+    "section": "Medidas de Dispersión",
+    "text": "Medidas de Dispersión\n\nRango\nEl rango es la diferencia entre el valor máximo y mínimo del conjunto de datos.\nrange(mtcars$hp)\ndiff(range(mtcars$hp))\n\n\nVarianza y Desviación Estándar\nLa varianza mide la dispersión de los datos respecto a la media. La desviación estándar es la raíz cuadrada de la varianza.\nvar(mtcars$wt)\nsd(mtcars$wt)\n\n\nCoeficiente de Variación\nRelación entre la desviación estándar y la media, expresado como porcentaje.\ncv &lt;- sd(mtcars$wt) / mean(mtcars$wt)\ncv",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#medidas-de-posición",
+    "href": "semana_01/estadistica.html#medidas-de-posición",
+    "title": "Estadística Descriptiva en R",
+    "section": "Medidas de Posición",
+    "text": "Medidas de Posición\n\nCuartiles y Percentiles\nDividen los datos en partes iguales.\nquantile(mtcars$mpg)\nquantile(mtcars$mpg, probs = c(0.25, 0.5, 0.75))",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#tabla-de-frecuencia",
+    "href": "semana_01/estadistica.html#tabla-de-frecuencia",
+    "title": "Estadística Descriptiva en R",
+    "section": "Tabla de Frecuencia",
+    "text": "Tabla de Frecuencia\nPara variables categóricas o discretas.\ntable(mtcars$cyl)\nprop.table(table(mtcars$cyl))",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#resumen-general",
+    "href": "semana_01/estadistica.html#resumen-general",
+    "title": "Estadística Descriptiva en R",
+    "section": "Resumen General",
+    "text": "Resumen General\nLa función summary() entrega un resumen estadístico para cada variable numérica.\nsummary(mtcars)",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#visualizaciones-básicas",
+    "href": "semana_01/estadistica.html#visualizaciones-básicas",
+    "title": "Estadística Descriptiva en R",
+    "section": "Visualizaciones Básicas",
+    "text": "Visualizaciones Básicas\n\nHistograma\nhist(mtcars$mpg,\n     main = \"Histograma de mpg\",\n     xlab = \"Millas por galón\",\n     col = \"lightblue\",\n     border = \"black\")\n\n\nBoxplot\nboxplot(mtcars$mpg,\n        main = \"Boxplot de mpg\",\n        ylab = \"Millas por galón\",\n        col = \"salmon\")\n\n\nDiagrama de Dispersión\nplot(mtcars$wt, mtcars$mpg,\n     main = \"mpg vs peso del vehículo\",\n     xlab = \"Peso (1000 lbs)\",\n     ylab = \"Millas por galón\",\n     pch = 19,\n     col = \"darkgreen\")",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/estadistica.html#bonus-paquete-psych-para-descripción-extendida",
+    "href": "semana_01/estadistica.html#bonus-paquete-psych-para-descripción-extendida",
+    "title": "Estadística Descriptiva en R",
+    "section": "Bonus: Paquete psych para descripción extendida",
+    "text": "Bonus: Paquete psych para descripción extendida\n# install.packages(\"psych\")  # descomenta si no lo tienes instalado\nlibrary(psych)\ndescribe(mtcars)",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estadística Descriptiva en R</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/graficos.html",
+    "href": "semana_01/graficos.html",
+    "title": "Tipos de Gráficos",
+    "section": "",
+    "text": "Introducción\nEn estadística, un gráfico es una representación visual de datos que permite resumir, analizar y comunicar información de manera efectiva. Los gráficos se utilizan ampliamente en estadística para mostrar patrones, tendencias, distribuciones y relaciones entre variables.\nA continuación, revisamos los tipos de gráficos más comunes utilizando ggplot2 en R.",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tipos de Gráficos</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/graficos.html#gráfico-de-línea",
+    "href": "semana_01/graficos.html#gráfico-de-línea",
+    "title": "Tipos de Gráficos",
+    "section": "Gráfico de Línea",
+    "text": "Gráfico de Línea\nUn gráfico de líneas muestra cómo cambia una variable continua a lo largo del tiempo o del eje x.\nlibrary(ggplot2)\n\ndf &lt;- data.frame(\n  x = 1:5,\n  y = c(10, 12, 15, 20, 22)\n)\n\nggplot(df, aes(x = x, y = y)) +\n  geom_line() +\n  geom_point() +\n  labs(title = \"Gráfico de líneas\", x = \"Eje x\", y = \"Eje y\")",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tipos de Gráficos</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/graficos.html#gráfico-de-dispersión",
+    "href": "semana_01/graficos.html#gráfico-de-dispersión",
+    "title": "Tipos de Gráficos",
+    "section": "Gráfico de Dispersión",
+    "text": "Gráfico de Dispersión\nSe utiliza para mostrar la relación entre dos variables numéricas.\ndf &lt;- data.frame(\n  x = 1:5,\n  y = c(10, 12, 15, 20, 22)\n)\n\nggplot(df, aes(x = x, y = y)) +\n  geom_point(size = 3) +\n  labs(title = \"Diagrama de dispersión\", x = \"Eje x\", y = \"Eje y\")",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tipos de Gráficos</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/graficos.html#gráfico-de-barras",
+    "href": "semana_01/graficos.html#gráfico-de-barras",
+    "title": "Tipos de Gráficos",
+    "section": "Gráfico de Barras",
+    "text": "Gráfico de Barras\nIdeal para comparar cantidades entre categorías.\ndf &lt;- data.frame(\n  producto = c(\"A\", \"B\", \"C\", \"D\", \"E\"),\n  ventas = c(100, 200, 150, 300, 250)\n)\n\nggplot(df, aes(x = producto, y = ventas)) +\n  geom_bar(stat = \"identity\", fill = \"steelblue\") +\n  labs(title = \"Ventas por producto\", x = \"Producto\", y = \"Cantidad vendida\")",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tipos de Gráficos</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/graficos.html#histograma",
+    "href": "semana_01/graficos.html#histograma",
+    "title": "Tipos de Gráficos",
+    "section": "Histograma",
+    "text": "Histograma\nRepresenta la distribución de una variable continua dividiendo los datos en intervalos.\nset.seed(123)\ndatos &lt;- data.frame(valores = rnorm(10000))\n\nggplot(datos, aes(x = valores)) +\n  geom_histogram(bins = 20, fill = \"darkgreen\", color = \"black\") +\n  labs(title = \"Histograma de valores aleatorios\", x = \"Valores\", y = \"Frecuencia\")",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tipos de Gráficos</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/graficos.html#heatmap-mapa-de-calor",
+    "href": "semana_01/graficos.html#heatmap-mapa-de-calor",
+    "title": "Tipos de Gráficos",
+    "section": "Heatmap (Mapa de calor)",
+    "text": "Heatmap (Mapa de calor)\nVisualiza valores de una matriz mediante colores.\nlibrary(reshape2)\n\nset.seed(123)\nmatriz &lt;- matrix(runif(25), nrow = 5)\ndf &lt;- melt(matriz)\n\nggplot(df, aes(x = Var2, y = Var1, fill = value)) +\n  geom_tile() +\n  scale_fill_gradient(low = \"white\", high = \"blue\") +\n  labs(title = \"Heatmap de una matriz aleatoria\", x = \"Columnas\", y = \"Filas\") +\n  theme_minimal()",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tipos de Gráficos</span>"
+    ]
+  },
+  {
+    "objectID": "semana_01/graficos.html#boxplot",
+    "href": "semana_01/graficos.html#boxplot",
+    "title": "Tipos de Gráficos",
+    "section": "Boxplot",
+    "text": "Boxplot\nMuestra la distribución de un conjunto de datos numéricos a través de sus cuartiles y outliers.\nset.seed(123)\ndf &lt;- data.frame(valor = rnorm(1000))\n\nggplot(df, aes(y = valor)) +\n  geom_boxplot(fill = \"lightgray\") +\n  labs(title = \"Boxplot de un conjunto de datos aleatorios\", y = \"Valores\")\n\nBoxplot combinado con Histograma\nlibrary(patchwork)\n\nset.seed(123)\ndf &lt;- data.frame(valor = rnorm(1000))\n\ng_box &lt;- ggplot(df, aes(x = valor)) +\n  geom_boxplot(fill = \"lightblue\") +\n  theme_minimal() +\n  labs(x = \"Variable X\", y = NULL)\n\ng_hist &lt;- ggplot(df, aes(x = valor)) +\n  geom_histogram(bins = 10, fill = \"gray\", color = \"black\") +\n  labs(x = \"Variable X\", y = \"Frecuencia\") +\n  theme_minimal()\n\ng_box / g_hist + plot_layout(heights = c(1, 4)) +\n  plot_annotation(title = \"Boxplot con Histograma\")",
+    "crumbs": [
+      "📘 Visualización y Estadística Descriptiva",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tipos de Gráficos</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/index.html",
+    "href": "semana_02/index.html",
+    "title": "📗 Creación de Reportes Reproducibles con Quarto",
+    "section": "",
+    "text": "Introducción\nEsta sección está dedicada al uso de Quarto como herramienta para documentar y comunicar análisis de datos de forma clara, reproducible y profesional. Aprenderás a construir informes dinámicos que integran código, visualizaciones y texto explicativo en un solo documento.\nEl enfoque estará en el desarrollo de reportes en formato .qmd, que pueden ser renderizados a HTML, PDF o presentaciones, facilitando la entrega y presentación de tus resultados de manera estructurada y efectiva.\n\n\nObjetivos de la sección\n\nComprender la estructura y sintaxis de un documento Quarto (.qmd).\nIntegrar código R, visualizaciones y texto en un mismo archivo reproducible.\nAgregar elementos visuales como títulos, tablas, gráficos y ecuaciones.\nExportar el informe en distintos formatos (HTML, PDF, presentación).\nAplicar buenas prácticas de comunicación de resultados en ciencia de datos.\n\n\n\nContenido a revisar\n\nInforme Exploratorio en Quarto\nPlantilla base para crear un informe completo con texto, código, gráficos y análisis.\nGuía de Comunicación de Resultados\nConsejos para mejorar la estructura, claridad y estilo visual de tus informes.\n\n\n\nActividad práctica\nCrea un documento .qmd que contenga:\n\nTítulo, autor y fecha del análisis.\nIntroducción breve al dataset y objetivo del análisis.\nAl menos dos gráficos generados con ggplot2.\nInterpretaciones claras escritas junto a los resultados.\nElementos opcionales como tablas, ecuaciones o bibliografía.\n\nRinde tu documento como HTML o PDF utilizando quarto render o el botón de renderizado en RStudio.\n\n\nRecursos\n\nSitio oficial de Quarto: https://quarto.org\nIntroducción a Quarto: https://quarto.org/docs/get-started/\nGuía para documentos: https://quarto.org/docs/output-formats/html-document.html\nEjemplos de Quarto + ggplot2: https://quarto.org/docs/interactive/ggplot2.html",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_intro.html",
+    "href": "semana_02/quarto_intro.html",
+    "title": "Introducción a Quarto",
+    "section": "",
+    "text": "¿Qué es Quarto?\nQuarto es una herramienta de publicación científica y técnica que permite crear documentos reproducibles, presentaciones, libros, sitios web y dashboards combinando texto, código y visualizaciones en un solo archivo.\nEs el sucesor natural de R Markdown, compatible con múltiples lenguajes de programación (R, Python, Julia, Observable JS) y enfocado en la reproducibilidad y presentación profesional de contenidos.",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introducción a Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_intro.html#encabezado-yaml",
+    "href": "semana_02/quarto_intro.html#encabezado-yaml",
+    "title": "Introducción a Quarto",
+    "section": "Encabezado YAML",
+    "text": "Encabezado YAML\nCada archivo inicia con un bloque YAML entre líneas ``, donde defines metadatos y el formato de salida:\n\ntitle: \"Mi primer informe\"\nauthor: \"Francisco Alfaro\"\nformat: html",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introducción a Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_intro.html#texto-en-markdown",
+    "href": "semana_02/quarto_intro.html#texto-en-markdown",
+    "title": "Introducción a Quarto",
+    "section": "Texto en Markdown",
+    "text": "Texto en Markdown\nUsas sintaxis estándar:\n# Título principal\n## Subtítulo\n- Lista de puntos\n**Negrita** y *cursiva*",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introducción a Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_intro.html#bloques-de-código",
+    "href": "semana_02/quarto_intro.html#bloques-de-código",
+    "title": "Introducción a Quarto",
+    "section": "Bloques de código",
+    "text": "Bloques de código\nPuedes incluir código de R o Python con triple tilde invertida y el lenguaje:\n::: {.cell}\n\n```{.r .cell-code}\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n:::\n\nTambién puedes configurar los chunks con opciones:\n\n```r\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n\n\n\n\n\n\n\n:::\n```",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introducción a Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_avanzado.html",
+    "href": "semana_02/quarto_avanzado.html",
+    "title": "Temas Avanzados en Quarto",
+    "section": "",
+    "text": "Introducción\nEn esta sección abordaremos funcionalidades avanzadas de Quarto, pensadas para quienes desean llevar sus documentos reproducibles al siguiente nivel. Revisaremos el uso de extensiones, personalización avanzada, interactividad, publicación web y automatización.",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Temas Avanzados en Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_avanzado.html#instalación-de-extensiones",
+    "href": "semana_02/quarto_avanzado.html#instalación-de-extensiones",
+    "title": "Temas Avanzados en Quarto",
+    "section": "Instalación de extensiones",
+    "text": "Instalación de extensiones\nPuedes instalar extensiones con:\nquarto install extension &lt;usuario&gt;/&lt;repositorio&gt;\nPor ejemplo:\nquarto install extension quarto-ext/fontawesome",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Temas Avanzados en Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_avanzado.html#ejemplos-útiles",
+    "href": "semana_02/quarto_avanzado.html#ejemplos-útiles",
+    "title": "Temas Avanzados en Quarto",
+    "section": "Ejemplos útiles",
+    "text": "Ejemplos útiles\n\nquarto-ext/fontawesome: íconos en línea\nquarto-ext/lightbox: galería de imágenes\nquarto-ext/callouts: cuadros de aviso, tips, warnings\nquarto-ext/revealjs-title-slide: personaliza tus diapositivas",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Temas Avanzados en Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_avanzado.html#uso-de-filtros",
+    "href": "semana_02/quarto_avanzado.html#uso-de-filtros",
+    "title": "Temas Avanzados en Quarto",
+    "section": "Uso de filtros",
+    "text": "Uso de filtros\nPuedes definirlos en _quarto.yml:\nfilters:\n  - quarto\n  - my-custom-filter.lua\nEjemplos avanzados:\n\npandoc-crossref: referencias cruzadas de figuras, tablas, ecuaciones\npandoc-fignos: numeración automática de gráficos\npandoc-lua: scripts personalizados para modificar contenido",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Temas Avanzados en Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_avanzado.html#publicación-en-github-pages",
+    "href": "semana_02/quarto_avanzado.html#publicación-en-github-pages",
+    "title": "Temas Avanzados en Quarto",
+    "section": "Publicación en GitHub Pages",
+    "text": "Publicación en GitHub Pages\nPuedes usar quarto publish:\nquarto publish gh-pages\nAsegúrate de tener configurado tu repo con una rama gh-pages.",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Temas Avanzados en Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_02/quarto_avanzado.html#otros-servicios-compatibles",
+    "href": "semana_02/quarto_avanzado.html#otros-servicios-compatibles",
+    "title": "Temas Avanzados en Quarto",
+    "section": "Otros servicios compatibles:",
+    "text": "Otros servicios compatibles:\n\nNetlify\nVercel\nRStudio Connect\nPosit Cloud",
+    "crumbs": [
+      "📗 Creación de Reportes Reproducibles con Quarto",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Temas Avanzados en Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "semana_03/index.html",
+    "href": "semana_03/index.html",
+    "title": "📙 Dashboards Interactivos con Shiny",
+    "section": "",
+    "text": "Introducción\nEsta semana aprenderemos a construir aplicaciones interactivas utilizando Shiny, un paquete de R que permite crear dashboards web de manera sencilla. El objetivo es que puedas transformar tus análisis en herramientas visuales dinámicas que permitan a otros usuarios explorar los datos de forma intuitiva.\n\n\nObjetivos de la semana\n\nComprender la estructura básica de una aplicación Shiny.\nImplementar interfaces reactivas con controles (inputs) y salidas gráficas (outputs).\nConectar Shiny con tus análisis previos para visualizar resultados de forma interactiva.\nDesarrollar una aplicación básica que permita filtrar datos y generar gráficos dinámicos.\n\n\n\nContenido a revisar\n\nMini App Básica\nAplicación simple con selección de variables y visualización instantánea.\nMini App Avanzada\nAplicación con elementos condicionales y más lógica reactiva.\nReflexión sobre Shiny\nDiscusión sobre las ventajas y desafíos de crear aplicaciones interactivas para comunicar datos.\n\n\n\nActividad de la semana\nCrea una aplicación Shiny con las siguientes características mínimas:\n\nUn input que permita filtrar por especie u otra categoría del dataset.\nUn output gráfico (plotOutput) que reaccione a la selección.\nOpcional: incluir texto o resumen estadístico dinámico (renderText o renderTable).\n\nEntrega tu aplicación como archivo .R o proyecto .Rproj, junto con un breve archivo README que explique cómo ejecutarla.\n\n\nRecursos\n\nDocumentación oficial de Shiny: https://shiny.posit.co\nLibro Mastering Shiny de Hadley Wickham: https://mastering-shiny.org\nCheatsheet de Shiny: https://posit.co/resources/cheatsheets/",
+    "crumbs": [
+      "📙 Dashboards Interactivos con Shiny"
+    ]
+  },
+  {
+    "objectID": "semana_03/shiny_intro.html",
+    "href": "semana_03/shiny_intro.html",
+    "title": "Introducción a Shiny",
+    "section": "",
+    "text": "¿Qué es Shiny?\nShiny es un paquete de R que permite construir aplicaciones web interactivas de forma sencilla, combinando R, HTML y JavaScript sin necesidad de conocimientos avanzados en desarrollo web.\nFue creado por la empresa Posit (ex RStudio) y es ampliamente utilizado en ciencia de datos para crear dashboards, simulaciones, visualizadores de modelos, reportes interactivos y más.\n\n\n¿Por qué usar Shiny?\n\nTransforma análisis estáticos en experiencias interactivas.\nPermite que usuarios no técnicos exploren datos y resultados dinámicamente.\nIdeal para prototipos, dashboards internos o presentaciones de resultados.\n\n\n\nEstructura básica de una app Shiny\nUna aplicación Shiny mínima tiene dos componentes: ui y server.\nlibrary(shiny)\n\nui &lt;- fluidPage(\n  titlePanel(\"Mi primera app Shiny\"),\n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(\"num\", \"Selecciona un número\", 1, 100, 50)\n    ),\n    mainPanel(\n      textOutput(\"resultado\")\n    )\n  )\n)\n\nserver &lt;- function(input, output) {\n  output$resultado &lt;- renderText({\n    paste(\"El número seleccionado es:\", input$num)\n  })\n}\n\nshinyApp(ui = ui, server = server)\n\n\nElementos fundamentales\n\n\n\n\n\n\n\nElemento\nDescripción\n\n\n\n\nfluidPage()\nCrea el layout principal de la app\n\n\ninput\nComponentes de entrada (sliderInput, selectInput, etc.)\n\n\noutput\nComponentes de salida (plotOutput, textOutput, etc.)\n\n\nrender*\nFunciones reactivas que generan salidas: renderPlot, renderText, etc.\n\n\nreactive()\nCrea objetos reactivos para cálculos reutilizables\n\n\n\n\n\nEjemplo simple con gráfico\nlibrary(shiny)\nlibrary(ggplot2)\n\nui &lt;- fluidPage(\n  titlePanel(\"Histograma interactivo\"),\n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(\"bins\", \"Número de bins\", min = 5, max = 50, value = 30)\n    ),\n    mainPanel(\n      plotOutput(\"hist\")\n    )\n  )\n)\n\nserver &lt;- function(input, output) {\n  output$hist &lt;- renderPlot({\n    ggplot(faithful, aes(x = waiting)) +\n      geom_histogram(bins = input$bins, fill = \"steelblue\", color = \"white\")\n  })\n}\n\nshinyApp(ui = ui, server = server)\n\n\nRecomendaciones\n\nEmpieza simple: una app, un input, un output.\nUsa reactive() para evitar código repetido en apps más complejas.\nSepara código en archivos: app.R, ui.R, server.R si tu proyecto crece.\nUsa quarto si deseas incrustar una app dentro de un documento o sitio web.\n\n\n\nRecursos recomendados\n\nSitio oficial: https://shiny.posit.co\nLibro gratuito: https://mastering-shiny.org\nCheatsheet Shiny: https://posit.co/resources/cheatsheets/\n\n\n\nActividad sugerida\nCrea una aplicación que permita:\n\nFiltrar datos por una categoría (por ejemplo, especie de pingüinos)\nMostrar un gráfico asociado a la selección\nIncluir una tabla con estadísticas básicas",
+    "crumbs": [
+      "📙 Dashboards Interactivos con Shiny",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Introducción a Shiny</span>"
+    ]
+  },
+  {
+    "objectID": "semana_03/shiny_avanzado.html",
+    "href": "semana_03/shiny_avanzado.html",
+    "title": "Shiny Avanzado",
+    "section": "",
+    "text": "Introducción\nEn esta sección exploraremos características avanzadas de Shiny para construir aplicaciones más robustas, modulares e interactivas. Aprenderemos a usar componentes reactivos complejos, separar la lógica en archivos, incorporar gráficos interactivos, y mejorar la experiencia de usuario.\n\n\n1. Separación en archivos: app.R, ui.R, server.R\nPara aplicaciones grandes, es recomendable separar el código:\nArchivo ui.R:\nlibrary(shiny)\n\nfluidPage(\n  titlePanel(\"App modular\"),\n  sidebarLayout(\n    sidebarPanel(\n      selectInput(\"col\", \"Columna:\", choices = names(mtcars))\n    ),\n    mainPanel(\n      plotOutput(\"hist\")\n    )\n  )\n)\nArchivo server.R:\nfunction(input, output) {\n  output$hist &lt;- renderPlot({\n    hist(mtcars[[input$col]])\n  })\n}\nArchivo app.R:\nui &lt;- source(\"ui.R\")$value\nserver &lt;- source(\"server.R\")$value\n\nshinyApp(ui = ui, server = server)\n\n\n2. Uso de reactive()\nserver &lt;- function(input, output) {\n  datos_filtrados &lt;- reactive({\n    mtcars[mtcars$cyl == input$cyl, ]\n  })\n\n  output$tabla &lt;- renderTable({\n    datos_filtrados()\n  })\n}\nEl objeto datos_filtrados() solo se recalcula cuando input$cyl cambia.\n\n\n3. observeEvent() y eventReactive()\n\nobserveEvent(): ejecuta efectos secundarios (como imprimir, guardar, actualizar)\neventReactive(): solo recalcula cuando un evento específico ocurre\n\n# Usar botón para actualizar\noutput$plot &lt;- renderPlot({\n  input$boton_actualizar\n  isolate({\n    hist(rnorm(100))\n  })\n})\n\n\n4. Descarga de archivos: downloadHandler\noutput$descarga &lt;- downloadHandler(\n  filename = function() {\n    paste0(\"datos-\", Sys.Date(), \".csv\")\n  },\n  content = function(file) {\n    write.csv(mtcars, file)\n  }\n)\n\n\n5. Gráficos interactivos con plotly\nlibrary(plotly)\n\noutput$plotly_plot &lt;- renderPlotly({\n  plot_ly(data = iris, x = ~Sepal.Length, y = ~Petal.Length, color = ~Species)\n})\n\n\n6. Módulos en Shiny\nPermiten reusar lógica y UI como funciones:\nMódulo UI:\nmod_plot_ui &lt;- function(id) {\n  ns &lt;- NS(id)\n  plotOutput(ns(\"plot\"))\n}\nMódulo Server:\nmod_plot_server &lt;- function(id, data) {\n  moduleServer(id, function(input, output, session) {\n    output$plot &lt;- renderPlot({\n      hist(data())\n    })\n  })\n}\nUso en app:\nmod_plot_ui(\"grafico\")\nmod_plot_server(\"grafico\", reactive({ mtcars$mpg }))\n\n\n7. Mejora visual con shinythemes o bslib\nlibrary(shinythemes)\n\nui &lt;- fluidPage(\n  theme = shinytheme(\"flatly\"),\n  titlePanel(\"App con tema\")\n)\nO bien:\nlibrary(bslib)\n\nui &lt;- fluidPage(\n  theme = bs_theme(bootswatch = \"minty\", base_font = font_google(\"Roboto\"))\n)\n\n\nRecursos adicionales\n\nLibro: https://mastering-shiny.org\nDocumentación: https://shiny.posit.co\nGalería de ejemplos: https://shiny.posit.co/gallery/\nTutorial sobre módulos: https://shiny.rstudio.com/articles/modules.html\n\n\n\nActividad sugerida\nConstruye una aplicación que incluya:\n\nFiltros por múltiples variables\nVisualización interactiva (plotly)\nDescarga de resultados (downloadHandler)\nAl menos un módulo reutilizable (moduleServer)",
+    "crumbs": [
+      "📙 Dashboards Interactivos con Shiny",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Shiny Avanzado</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/index.html",
+    "href": "semana_04/index.html",
+    "title": "📕 Data Storytelling y Presentación de Proyectos",
+    "section": "",
+    "text": "Introducción\nEn esta última semana del módulo trabajaremos en la construcción de una narrativa clara, visual y efectiva a partir de los análisis realizados en las semanas anteriores. Abordaremos el concepto de Data Storytelling y aplicaremos principios de comunicación visual para preparar la presentación final del proyecto.\n\n\nObjetivos de la semana\n\nComprender los elementos clave del Data Storytelling: audiencia, mensaje, visualización y narrativa.\nDiseñar presentaciones efectivas utilizando herramientas como Quarto o Shiny.\nCompartir resultados de manera clara, profesional y convincente.\nPresentar y retroalimentar proyectos finales del curso.\n\n\n\nContenido a revisar\n\nFundamentos de Data Storytelling\nIntroducción teórica y ejemplos ilustrativos.\nGalería de Proyectos\nEjemplos de inspiración y buenas prácticas visuales.\nPresentaciones Finales\nGuía para exponer resultados de forma clara y atractiva.\n\n\n\nProyecto final\nDurante esta semana cada estudiante presentará un proyecto aplicado que integre:\n\nAnálisis exploratorio y estadístico con visualización\nUna historia o narrativa basada en los hallazgos\nPresentación clara de resultados y conclusiones\n\nFormato libre, puede ser:\n\nUn informe interactivo en Quarto (HTML, revealjs)\nUn dashboard funcional con Shiny\n\nLa evaluación considerará: claridad de los gráficos, interpretación de resultados, estructura narrativa, diseño visual y calidad de la entrega.\n\n\nRecursos\n\nCairo, A. El arte funcional: principios del diseño de la visualización de datos.\nCole Nussbaumer Knaflic, Storytelling with Data.\nhttps://quarto.org\nhttps://shiny.posit.co",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos"
+    ]
+  },
+  {
+    "objectID": "semana_04/storytelling.html",
+    "href": "semana_04/storytelling.html",
+    "title": "Fundamentos de Data Storytelling",
+    "section": "",
+    "text": "¿Qué es el Data Storytelling?\nData Storytelling es el arte de comunicar datos de forma clara, persuasiva y memorable. No se trata solo de mostrar cifras o gráficos, sino de construir una narrativa que conecte la información con la audiencia y genere comprensión, interés y acción.\nEs el punto de encuentro entre:",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fundamentos de Data Storytelling</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/storytelling.html#audiencia",
+    "href": "semana_04/storytelling.html#audiencia",
+    "title": "Fundamentos de Data Storytelling",
+    "section": "1. Audiencia",
+    "text": "1. Audiencia\nAntes de contar una historia con datos, pregúntate:\n\n¿Quién la va a leer o ver?\n¿Qué nivel de conocimiento tienen?\n¿Qué necesitan saber?",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fundamentos de Data Storytelling</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/storytelling.html#mensaje",
+    "href": "semana_04/storytelling.html#mensaje",
+    "title": "Fundamentos de Data Storytelling",
+    "section": "2. Mensaje",
+    "text": "2. Mensaje\nToda historia necesita un mensaje central. Algunos ejemplos:\n\n“Los estudiantes con más participación tienen mejores resultados.”\n“Las ventas bajan los lunes, pero suben al final del mes.”\n\nEvita mostrar gráficos sin propósito.",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fundamentos de Data Storytelling</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/storytelling.html#visualización",
+    "href": "semana_04/storytelling.html#visualización",
+    "title": "Fundamentos de Data Storytelling",
+    "section": "3. Visualización",
+    "text": "3. Visualización\nSelecciona gráficos que refuercen el mensaje, no que lo oculten.\n\nUsa ggplot2 o plotly para claridad y estética.\nEvita sobrecargar de colores, etiquetas o ejes innecesarios.\nUsa títulos que expliquen lo que muestra el gráfico, no solo lo describan.",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fundamentos de Data Storytelling</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/storytelling.html#narrativa",
+    "href": "semana_04/storytelling.html#narrativa",
+    "title": "Fundamentos de Data Storytelling",
+    "section": "4. Narrativa",
+    "text": "4. Narrativa\nLa narrativa debe tener un inicio, desarrollo y cierre:\n\nInicio: ¿qué problema se quiere entender?\nDesarrollo: ¿qué muestran los datos?\nCierre: ¿qué conclusiones o recomendaciones surgen?",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fundamentos de Data Storytelling</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html",
+    "href": "semana_04/presentaciones.html",
+    "title": "Guía para Presentaciones Finales",
+    "section": "",
+    "text": "Introducción\nUna buena presentación de datos no solo muestra resultados, sino que los comunica de forma clara, visual y persuasiva. Esta guía está pensada para ayudarte a organizar, diseñar y exponer tu proyecto final utilizando Quarto (como presentación o informe) o Shiny.",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html#introducción-1",
+    "href": "semana_04/presentaciones.html#introducción-1",
+    "title": "Guía para Presentaciones Finales",
+    "section": "1. Introducción",
+    "text": "1. Introducción\n\n¿Cuál es el problema o pregunta que quieres responder?\nBreve contexto o motivación.\n¿Qué datos utilizaste?",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html#exploración-y-análisis",
+    "href": "semana_04/presentaciones.html#exploración-y-análisis",
+    "title": "Guía para Presentaciones Finales",
+    "section": "2. Exploración y análisis",
+    "text": "2. Exploración y análisis\n\nEstadísticas descriptivas clave.\nVisualizaciones explicativas.\nComparaciones relevantes entre grupos, variables o momentos.",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html#hallazgos",
+    "href": "semana_04/presentaciones.html#hallazgos",
+    "title": "Guía para Presentaciones Finales",
+    "section": "3. Hallazgos",
+    "text": "3. Hallazgos\n\n¿Qué descubriste?\n¿Qué patrones relevantes identificaste?\n¿Qué insights surgen del análisis?",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html#conclusiones-y-recomendaciones",
+    "href": "semana_04/presentaciones.html#conclusiones-y-recomendaciones",
+    "title": "Guía para Presentaciones Finales",
+    "section": "4. Conclusiones y recomendaciones",
+    "text": "4. Conclusiones y recomendaciones\n\nResumen breve de los hallazgos clave.\nSugerencias de acción, mejora o próximos pasos.\nSi aplica: limitaciones del análisis.",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html#opción-1-presentación-con-quarto-y-revealjs",
+    "href": "semana_04/presentaciones.html#opción-1-presentación-con-quarto-y-revealjs",
+    "title": "Guía para Presentaciones Finales",
+    "section": "Opción 1: Presentación con Quarto y revealjs",
+    "text": "Opción 1: Presentación con Quarto y revealjs\n\nIdeal para exponer en vivo.\nPuedes usar código embebido, gráficos y elementos interactivos.\n\nformat: \n  revealjs:\n    slide-number: true\n    transition: fade\n    theme: default",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html#opción-2-informe-en-quarto-.qmd-htmlpdf",
+    "href": "semana_04/presentaciones.html#opción-2-informe-en-quarto-.qmd-htmlpdf",
+    "title": "Guía para Presentaciones Finales",
+    "section": "Opción 2: Informe en Quarto (.qmd → HTML/PDF)",
+    "text": "Opción 2: Informe en Quarto (.qmd → HTML/PDF)\n\nIdeal para compartir luego o dejar como entrega final.\nPuedes incluir más detalle, citas, bibliografía, apéndices, etc.",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  },
+  {
+    "objectID": "semana_04/presentaciones.html#opción-3-dashboard-en-shiny",
+    "href": "semana_04/presentaciones.html#opción-3-dashboard-en-shiny",
+    "title": "Guía para Presentaciones Finales",
+    "section": "Opción 3: Dashboard en Shiny",
+    "text": "Opción 3: Dashboard en Shiny\n\nIdeal si el proyecto requiere exploración dinámica o filtros.\nAcompaña la app con una breve guía de uso.",
+    "crumbs": [
+      "📕 Data Storytelling y Presentación de Proyectos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Guía para Presentaciones Finales</span>"
+    ]
+  }
+]
