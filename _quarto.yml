@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: "📊 Estadística y Visualización de Datos con R"
+  author: "Francisco Alfaro"
+  date: "11/04/2025"
+  favicon: "images/logo-uss.png"
+  repo-url: "https://github.com/pjaguirreh/CienciaDeDatosTomaDecisiones"
+
+  chapters:
+    - index.qmd
+    - part: semana_01/index.qmd
+      chapters:
+        - semana_01/introduccion.qmd
+        - semana_01/estadistica.qmd
+        - semana_01/graficos.qmd
+    - part: semana_02/index.qmd
+      chapters:
+        - semana_02/quarto_intro.qmd
+        - semana_02/quarto_avanzado.qmd
+    - part: semana_03/index.qmd
+      chapters:
+        - semana_03/shiny_intro.qmd
+        - semana_03/shiny_avanzado.qmd
+    - part: semana_04/index.qmd
+      chapters:
+        - semana_04/storytelling.qmd
+        - semana_04/presentaciones.qmd
+index:
+  qmd:
+lang: es
+
+format:
+  html:
+    theme:
+      light: [flatly, light.scss]
+      dark: [darkly, dark.scss]
+    number-sections: false
+    toc: false
+    page-layout: full
+  epub:
+    cover-image: images/cover.png
+
+
+filters:
+  - webr
+  - pyodide
+
+sin-enumeracion: true  # Esta línea es opcional para indicar que no se desea enumeración
