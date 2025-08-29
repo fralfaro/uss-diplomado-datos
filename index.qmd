@@ -1,50 +1,40 @@
-# 🏠 Home
+# 🏠 Inicio
 
 ## 🎯 Objetivo del Módulo
 
-Desarrollar competencias para explorar, analizar e interpretar datos utilizando técnicas estadísticas descriptivas e inferenciales, junto con herramientas modernas de visualización en R. Se espera que el estudiante sea capaz de comunicar hallazgos de manera efectiva a través de reportes reproducibles e interfaces interactivas.
+El propósito de este módulo es desarrollar competencias para la exploración, el análisis y la interpretación de datos mediante técnicas estadísticas descriptivas e inferenciales, complementadas con herramientas modernas de visualización en **R**. Asimismo, se busca que el estudiante adquiera la capacidad de comunicar hallazgos de manera efectiva a través de reportes reproducibles e interfaces interactivas.
 
+## 🔧 Herramientas y librerías
 
+* **Lenguaje y entorno:** `R`, `RStudio`
+* **Librerías principales:** `ggplot2`, `dplyr`, `tidyr`, `skimr`, `GGally`, `corrplot`, `reshape2`, `shiny`, `quarto`, `knitr`, `patchwork`, `readr`
+* **Conjuntos de datos sugeridos:** `palmerpenguins`, `gapminder`, datos abiertos de [datos.gob.cl](https://datos.gob.cl) y recursos de Kaggle
 
-## 🔧 Herramientas y librerías utilizadas
+## 📅 Planificación semanal
 
-- `R`, `RStudio`
-- `ggplot2`, `dplyr`, `tidyr`, `skimr`, `GGally`, `corrplot`, `reshape2`, `shiny`, `quarto`, `knitr`, `patchwork`, `readr`
-- Datasets sugeridos: `palmerpenguins`, `gapminder`, datos abiertos (`datos.gob.cl`), Kaggle
+| Semana | Tema principal                                       | Objetivo                                                               | Actividad central                                          |
+| ------ | ---------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------- |
+| 📘 1   | Visualización exploratoria y estadística descriptiva | Analizar datos mediante visualizaciones y medidas estadísticas básicas | Análisis exploratorio con `ggplot2`, `skimr`, `GGally`     |
+| 📗 2   | Elaboración de reportes reproducibles con Quarto     | Generar reportes reproducibles utilizando `Quarto`                     | Informe exploratorio con gráficos y análisis en `Quarto`   |
+| 📙 3   | Dashboards interactivos con Shiny                    | Desarrollar aplicaciones web para la exploración dinámica de datos     | Mini aplicación en `Shiny` para visualización interactiva  |
+| 📕 4   | Data storytelling y presentación de proyectos        | Comunicar hallazgos de manera clara mediante visualización y narrativa | Proyecto final: reporte en `Quarto` o dashboard en `Shiny` |
 
+## 📚 Referencias recomendadas
 
+* Wickham, H., & Grolemund, G. (2016). *R for Data Science*. O’Reilly. [https://r4ds.hadley.nz/](https://r4ds.hadley.nz/)
+* Knaflic, C. N. (2015). *Storytelling with Data: A Data Visualization Guide for Business Professionals*. Wiley.
+* Healy, K. (2018). *Data Visualization: A Practical Introduction*. Princeton University Press.
+* Chang, W. (2021). *Mastering Shiny*. [https://mastering-shiny.org](https://mastering-shiny.org)
+* Documentación oficial de [Quarto](https://quarto.org)
+* Recursos de [Shiny](https://shiny.posit.co)
 
-## 📅 Planificación Semanal
-
-
-
-| Semana | Tema Principal                                       | Objetivo                                                             | Actividad Principal                                      |
-| ------ | ---------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------- |
-| 📘 1   | Visualización Exploratoria y Estadística Descriptiva | Explorar datos con visualizaciones y medidas estadísticas básicas    | Análisis exploratorio con `ggplot2`, `skimr`, `GGally`   |
-| 📗 2   | Creación de Reportes Reproducibles con Quarto     | Crear reportes reproducibles en `Quarto`     | Informe exploratorio con gráficos y análisis en `Quarto` |
-| 📙 3   | Dashboards Interactivos con Shiny                    | Construir aplicaciones web para explorar datos de forma dinámica     | Mini app en `Shiny` para visualización interactiva       |
-| 📕 4   | Data Storytelling y Presentación de Proyectos        | Comunicar hallazgos de manera clara usando visualización y narrativa | Proyecto final: reporte `Quarto` o dashboard `Shiny`     |
-
-
-
-
-## 📚 Referencias Sugeridas
-
-- Wickham, H., & Grolemund, G. (2016). *R for Data Science*. O’Reilly. [https://r4ds.hadley.nz/](https://r4ds.hadley.nz/)
-- Knaflic, C. N. (2015). *Storytelling with Data: A Data Visualization Guide for Business Professionals*
-- Healy, K. (2018). *Data Visualization: A Practical Introduction*. Princeton University Press.
-- Chang, W. (2021). *Mastering Shiny*. [https://mastering-shiny.org](https://mastering-shiny.org)
-- [https://quarto.org](https://quarto.org): Documentación oficial de Quarto
-- [https://shiny.posit.co](https://shiny.posit.co): Recursos para aprender Shiny
-
-
-
-## ✨ Resultado Esperado
+## ✨ Resultados de aprendizaje esperados
 
 Al finalizar el módulo, el estudiante será capaz de:
 
-- Interpretar y aplicar técnicas estadísticas básicas.
-- Utilizar `ggplot2` para visualizar distintos tipos de datos.
-- Crear reportes reproducibles con `Quarto`.
-- Construir aplicaciones interactivas simples en `Shiny`.
-- Comunicar hallazgos de forma clara, visual y narrativa.
+* Aplicar e interpretar técnicas estadísticas básicas.
+* Representar datos mediante visualizaciones en `ggplot2`.
+* Elaborar reportes reproducibles en `Quarto`.
+* Desarrollar aplicaciones interactivas sencillas con `Shiny`.
+* Comunicar resultados de manera clara, visual y narrativa.
+
